@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 'Norse-bold', 'sans-serif';
+}
+
+body{
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Norse-bold';
+    src: url('Norse-Bold.otf');
+}
+
+.image-container{
+    width: 60vw;
+    height: 100vh;
+    background-image: url('/images/plants.avif');
+    background-size: cover;
+}
+
+h1, p, form{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    padding-top: 80px;
+}
+
+.form-container{
+    border: solid 1px black;
+    width: calc(100vw - 60vh);
+    height: 35vh;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form-col{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: solid 1px brown;
+}
+
+label{
+    text-transform: uppercase;
+}
+
+input{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 2vh;
+}
+
+
+button{
+    height: calc(1rem * 2);
+    width: 150px;
+}
